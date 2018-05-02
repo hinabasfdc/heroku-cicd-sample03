@@ -9,7 +9,7 @@ var message_color = 'Red';
 
 
 var html_start = '<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8" /></head><body style="text-align: center;">';
-var html_body = '<img src="astro.png"></img><h1 style="color: ' + message_color + ';font-size: 6em;margin: 0px;">ようこそ!</h1><h2>Salesforce Basecamp 2017</h2><h3>Platform Keynote～AI時代のSalesforce Platform</h3>';
+var html_body = '<img src="astro.png"></img><h1 style="color: ' + message_color + ';font-size: 6em;margin: 0px;">ようこそ!</h1><h2>Heroku ハンズオンセミナー</h2><h3>2018/05/09</h3>';
 var html_end = '</body></html>';
 
 var server = http.createServer((req, res) => {
